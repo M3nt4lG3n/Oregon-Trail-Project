@@ -1,0 +1,30 @@
+Name,Type,Weight,Selected,Substantial
+Apple Vinegar,Food,25,FALSE,FALSE
+Bacon,Food,400,FALSE,TRUE
+Beans,Food,200,FALSE,TRUE
+Coffee,Food,80,FALSE,FALSE
+Dried Apples,Food,80,FALSE,TRUE
+Flour,Food,500,FALSE,FALSE
+Hardtack,Food,200,FALSE,TRUE
+Lard,Food,200,FALSE,TRUE
+Salt,Food,50,FALSE,FALSE
+Sugar,Food,40,FALSE,FALSE
+Rice,Food,200,FALSE,TRUE
+Water,Food,100,FALSE,TRUE
+Whiskey,Food,40,FALSE,FALSE
+Bedroll,Dry,15,FALSE,FALSE
+Blacksmithing Tools,Dry,200,FALSE,FALSE
+Books,Dry,75,FALSE,FALSE
+Medicine,Dry,10,FALSE,FALSE
+Cast Iron Stove,Dry,300,FALSE,FALSE
+Chair,Dry,20,FALSE,FALSE
+Cookware & Eating Utensils,Dry,75,FALSE,FALSE
+Granny's Clock,Dry,15,FALSE,FALSE
+Gun Making Tools,Dry,200,FALSE,FALSE
+Keepsakes,Dry,40,FALSE,FALSE
+Leadshot,Dry,25,FALSE,FALSE
+Mirror,Dry,15,FALSE,FALSE
+Gunpowder,Dry,80,FALSE,FALSE
+Tent & Gear,Dry,150,FALSE,FALSE
+Tools,Dry,50,FALSE,FALSE
+Toys,Dry,15,FALSE,FALSE
