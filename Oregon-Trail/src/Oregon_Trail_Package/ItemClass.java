@@ -7,14 +7,15 @@ public class ItemClass {
 	boolean itemSelected = false;
 	boolean itemSubstantial = false;
 	
-	public ItemClass(String name, String type, int weight, boolean selected, boolean substantial) {
+	ItemClass(String name, String type, int weight, boolean selected, boolean substantial) {
 		
 	}
 
+	
 	public void setName(String name) {
 		
 	}
-	
+
 	public String getName(String name) {
 		return name;
 	}
@@ -51,5 +52,19 @@ public class ItemClass {
 		return substantial;
 	}
 	
+	public int calculateSubWeight(int weight) {
+		int subWeight = 0;
+		return subWeight;
+	}
+	
+	public int calculateTotalWeight(int foodWeight, int dryWeight) {
+		int totalWeight = 0;
+		return totalWeight;
+	}
+	
+	public boolean checkWeight(int totalWeight) {
+		boolean weightCheck = false;
+		return weightCheck;
+	}
 	
 }

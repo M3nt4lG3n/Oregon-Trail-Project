@@ -9,6 +9,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 import javax.swing.JFrame;
+import java.awt.BorderLayout;
+import javax.swing.JPanel;
 
 public class Oregon_Trail_Window {
 
@@ -46,8 +48,9 @@ public class Oregon_Trail_Window {
 		ArrayList<ItemClass> items = new ArrayList<ItemClass>();
 		
 		frame = new JFrame();
-		frame.setBounds(100, 100, 450, 300);
+		frame.setBounds(200, 200, 900, 600);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(new BorderLayout(0, 0));
 		
 		//Opening the CSV File and setting up the input scanner
 		File inputFile = new File("WagonItems.csv");
@@ -68,8 +71,8 @@ public class Oregon_Trail_Window {
 			boolean substantial = Boolean.parseBoolean(tempSubstantial);
 			
 			
-			//ItemClass item = new ItemClass(name, type, weight, selected, substantial);
-			//items.add(item);
+			ItemClass item = new ItemClass(name, type, weight, selected, substantial);
+			items.add(item);
 		}
 	}
 
