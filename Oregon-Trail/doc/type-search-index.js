@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Oregon_Trail_Package","l":"DryClass"},{"p":"Oregon_Trail_Package","l":"FoodClass"},{"p":"Oregon_Trail_Package","l":"ItemClass"}];updateSearchResults();
